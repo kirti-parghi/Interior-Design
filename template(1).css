@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+}
+
+.sidenav {
+  width: 300px;
+  background-color: #f44336;
+  padding: 8px 16px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+.sidenav > h3 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  padding: 74px 16px;
+}
+
+.sidenav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenav > ul > li > a,
+.sidenav > ul > li > button {
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+  color: white;
+  display: block;
+  padding: 8px 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidenav > ul > li > a:hover,
+.sidenav > ul > li > button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+main {
+  margin-left: 300px;
+  padding: 0px 50px;
+}
+
+main > h1 {
+  margin-top: 90px;
+  margin-bottom: 10px;
+  font-size: 64px;
+}
+
+main h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f44336;
+  margin: 10px 0px;
+}
+
+.divider {
+  width: 60px;
+  border: 5px solid red;
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.gallery img {
+  opacity: 0.6;
+}
+.gallery img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card > img {
+  display: block;
+}
+
+.card-body {
+  padding: 0.1px 16px;
+  background-color: #f1f1f1;
+}
+
+.pricing-card {
+  text-align: center;
+}
+
+.pricing-card-header {
+  padding: 32px 16px;
+  color: white;
+  background-color: #616161;
+  font-size: 24px;
+}
+
+.pricing-card-body {
+  background-color: #f1f1f1;
+}
+
+.pricing-card-body > div {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+.btn-light {
+  background-color: #fff;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0px;
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/int.css" />
+  </head>
+  <body style="background-color: rgb(254, 230, 251)">
+    <nav class="nav-bar sidebar" theme-bg>
+      <h3>
+        Company <br />
+        Name
+      </h3>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+
+        <li>
+          <a href="#showcase"> Showcase</a>
+        </li>
+        <li>
+          <a href="#service"> Service</a>
+        </li>
+        <li><a href="#designers">Designers</a></li>
+        <li><a href="#package">Package</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button theme-color="blue">Blue</button></li>
+        <li><button theme-color="green">Green</button></li>
+        <li><button theme-color="red">Red</button></li>
+        <li><button id="toggleBtn">Toggle Nav</button></li>
+      </ul>
+    </nav>
+
+    <main class="main" id="home">
+      <h1 class="int-text" theme-text>Interior Design</h1>
+      <h1 class="red-text" theme-text id="showcase" theme-text>Showcase.</h1>
+      <hr class="hr" />
+
+      <div class="d-flex gap div w-100">
+        <img
+          class="w-100 image"
+          src="https://www.w3schools.com/w3images/kitchenconcrete.jpg"
+        />
+        <img
+          class="w-100 image"
+          src="https://www.w3schools.com/w3images/atrium.jpg"
+        />
+      </div>
+      <div class="d-flex gap div w-100">
+        <img
+          class="w-100 image"
+          style="width: 50%"
+          src="https://www.w3schools.com/w3images/livingroom.jpg"
+        />
+        <img
+          class="w-100 image"
+          style="width: 50%"
+          height="auto"
+          src="https://www.w3schools.com/w3images/bedroom.jpg"
+        />
+      </div>
+      <div class="d-flex gap div w-100">
+        <img
+          class="w-100 image"
+          style="width: 50%"
+          height="auto"
+          src="https://www.w3schools.com/w3images/diningroom.jpg"
+        />
+        <img
+          class="w-100 image"
+          style="width: 50%"
+          height="auto"
+          src="https://www.w3schools.com/w3images/livingroom2.jpg"
+        />
+      </div>
+
+      <h1 class="red-text" id="service" theme-text>Service.</h1>
+      <hr class="hr" />
+      <p>
+        We are a interior design service that focus on what's best for your home
+        and what's best for you!
+      </p>
+      <p>
+        Some text about our services - what we do and what we offer. We are
+        lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </p>
+
+      <h1 class="red-text" id="designers" theme-text>Designers.</h1>
+      <hr class="hr" />
+      <h3>The best team in the world.</h3>
+      <br />
+      <p>
+        We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.
+      </p>
+      <br />
+
+      <h3>Our designers are thoughtfully chosen:</h3>
+      <br />
+      <div class="d-flex gap">
+        <div>
+          <div class="card">
+            <img
+              class="w-100"
+              src="https://www.w3schools.com/w3images/team2.jpg"
+            />
+            <h2 class="ml-1">John Doe</h2>
+            <h2 class="txt-grey ml-1">CEO & Founder</h2>
+            <p class="ml-1">
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <img
+              class="w-100"
+              src="https://www.w3schools.com/w3images/team1.jpg "
+            />
+            <h2 class="ml-1">Jane Doe</h2>
+            <h2 class="txt-grey ml-1" id="designers">Designer</h2>
+            <p class="ml-1">
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <img
+              class="w-100"
+              src="https://www.w3schools.com/w3images/team3.jpg"
+            />
+            <h2 class="ml-1">Mike Ross</h2>
+            <h2 class="txt-grey ml-1">Architect</h2>
+            <p class="ml-1">
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+          </div>
+        </div>
+      </div>
+      <h1 class="red-text" id="package" theme-text>Packages.</h1>
+      <hr class="hr" />
+      <p>
+        Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure
+      </p>
+
+      <div class="row">
+        <div class="col-2">
+          <div class="p-card">
+            <div class="pcard-header">Basic</div>
+            <div class="pcard-body">
+              <div>Floorplanning</div>
+              <div>10 hours support</div>
+              <div>Photography</div>
+              <div>20% furniture discount</div>
+              <div>Good deals</div>
+              <div>
+                <h3>$ 199</h3>
+                <p>per room</p>
+              </div>
+              <div><button class="btn-red">Sign Up</button></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2">
+          <div class="p-card">
+            <div class="pcard-header-red" theme-bg>Pro</div>
+            <div class="pcard-body">
+              <div>Floorplanning</div>
+              <div>10 hours support</div>
+              <div>Photography</div>
+              <div>20% furniture discount</div>
+              <div>Good deals</div>
+              <div>
+                <h3>$ 249</h3>
+                <p>per room</p>
+              </div>
+              <div><button class="btn-red">Sign Up</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 class="red-text" theme-text id="contact">Contact.</h1>
+        <hr class="hr" />
+      </div>
+      <p>
+        Do you want us to style your home? Fill out the form and fill me in with
+        the details :) We love meeting new people!
+      </p>
+      <form method="get" id="frm" autocomplete="off">
+        <label for="fname"><b>Name</b></label>
+        <input type="text" id="fname" name="fname" />
+        <p class="mt-0"></p>
+        <label for="email"><b>Email</b></label>
+        <input type="email" id="email" name="email" />
+        <p class="mt-0"></p>
+        <label for="message"><b>Message</b></label>
+        <textarea name="message" id="message" rows="5"></textarea>
+        <p></p>
+        <input
+          type="submit"
+          value="Send Massage"
+          class="txt-submit mb-1"
+          theme-bg
+        />
+        <p class="mt-0"></p>
+      </form>
+      <div class="power-by">
+        <p>
+          Powerd by
+          <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+        </p>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      var themeColorBtn = $("[theme-color]");
+      var themeBg = $("[theme-bg]");
+      var themeText = $("[theme-text]");
+      var themeHr = $(".hr");
+      var toggleBtn = $("#toggleBtn");
+      var navbar = $(".nav-bar");
+
+      // themeColorBtn.click(function () {
+      //   let color = $(this).attr("theme-color");
+      //   themeBg.css({
+      //     backgroundColor: color,
+      //     color: "white",
+      //   });
+      //   themeText.css("color", color);
+      //   themeHr.css("border-color", color);
+      // });
+
+      toggleBtn.click(function () {
+        navbar.toggleClass("sidebar");
+        navbar.toggleClass("topbar");
+      });
+
+      //   if (toggleBtn.innerText == "show") {
+      //     toggleBtn.innerText == "hide";
+      //   }
+      // });
+
+      themeColorBtn.click(function () {
+        let color = $(this).attr("theme-color");
+
+        themeText.removeClass("txt-red txt-green txt-blue");
+        themeText.addClass("txt-" + color);
+
+        themeBg.removeClass("bg-red bg-green bg-blue");
+        themeBg.addClass("bg-" + color);
+
+        themeHr.removeClass("border-red border-green border-blue");
+        themeHr.addClass("border-" + color);
+      });
+    </script>
+    <script>
+      var frm = document.getElementById("frm");
+      var fname = document.getElementById("fname");
+      var email = document.getElementById("email");
+      var message = document.getElementById("message");
+
+      frm.addEventListener("submit", function () {
+        //name
+        if (fname.value == "") {
+          event.preventDefault();
+          fname.nextElementSibling.innerHTML = "*Mendatory";
+          fname.nextElementSibling.style.color = "red";
+        } else {
+          let fnamePattern = /[a-zA-Z]+\s{1}[a-zA-Z]{3,}/g;
+          if (!fnamePattern.test(fname.value)) {
+            event.preventDefault();
+            fname.nextElementSibling.innerHTML = "Invalid Name";
+            fname.nextElementSibling.style.color = "red";
+          } else {
+            fname.nextElementSibling.innerHTML = "Valid Name!!!!";
+            fname.nextElementSibling.style.color = "green";
+          }
+        }
+        //email
+        if (email.value == "") {
+          event.preventDefault();
+          email.nextElementSibling.innerHTML = "*Mendatory";
+          email.nextElementSibling.style.color = "red";
+        } else {
+          let emailPattern = /[a-z0-9]+@+[a-z]+[\.]{1}[a-z]{2,}/g;
+          if (!emailPattern.test(email.value)) {
+            event.preventDefault();
+            email.nextElementSibling.innerHTML = "Invalid Email";
+            email.nextElementSibling.style.color = "red";
+          } else {
+            email.nextElementSibling.innerHTML = "valid Email!!!!";
+            email.nextElementSibling.style.color = "green";
+          }
+        }
+        //message
+        if (message.value == "") {
+          event.preventDefault();
+          message.nextElementSibling.innerHTML = "*Mendatory";
+          message.nextElementSibling.style.color = "red";
+        } else {
+          message.nextElementSibling.innerHTML = "Done";
+          message.nextElementSibling.style.color = "green";
+        }
+      });
+
+      fname.addEventListener("keyup", function () {
+        if (fname.value == "") {
+          fname.nextElementSibling.innerHTML = "*Mendatory";
+          fname.nextElementSibling.style.color = "red";
+        } else {
+          let fnamePattern = /[a-zA-Z]+\s{1}[a-zA-Z]{3,}/g;
+          if (!fnamePattern.test(fname.value)) {
+            fname.nextElementSibling.innerHTML = "Wrong Name";
+            fname.nextElementSibling.style.color = "red";
+          } else {
+            fname.nextElementSibling.innerHTML = "valid Name";
+            fname.nextElementSibling.style.color = "green";
+          }
+        }
+      });
+      email.addEventListener("keyup", function () {
+        if (email.value == "") {
+          email.nextElementSibling.innerHTML = "*Mendatory";
+          email.nextElementSibling.style.color = "red";
+        } else {
+          let emailPattern = /[a-z0-9]+@+[a-z]+[\.]{1}[a-z]{2,}/g;
+          if (!emailPattern.test(email.value)) {
+            email.nextElementSibling.innerHTML = "Wrong Email-Id";
+            email.nextElementSibling.style.color = "red";
+          } else {
+            email.nextElementSibling.innerHTML = "valid Email-id";
+            email.nextElementSibling.style.color = "green";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
